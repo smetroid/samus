@@ -1,0 +1,22 @@
+package: bitbucket.org/smetroid/samus
+import:
+- package: github.com/unrolled/render
+- package: github.com/codegangsta/gin
+- package: github.com/BurntSushi/toml
+  version: ~0.2.0
+- package: github.com/PagerDuty/go-pagerduty
+- package: github.com/dgrijalva/jwt-go
+  version: ~3.0.0
+- package: github.com/docopt/docopt-go
+  version: ~0.6.2
+- package: github.com/labstack/echo
+  version: ~3.0.0
+  subpackages:
+  - engine/fasthttp
+- package: github.com/satori/go.uuid
+- package: gopkg.in/gorethink/gorethink.v4
+- package: gopkg.in/ldap.v2
+  version: ~2.4.1
+- package: gopkg.in/gomail.v2
+  version: ~2.0.0
+
